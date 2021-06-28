@@ -1,0 +1,51 @@
+.input-file {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.upload {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 240px;
+  border: 2px dashed #150B22;
+  -webkit-box-shadow: 3px 4px 10px #150B22;
+          box-shadow: 3px 4px 10px #150B22;
+  padding: 9px 52px 9px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #b96bdd;
+  position: relative;
+}
+
+.label span {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.label .icon {
+  font-size: 23px;
+  padding-left: 5px;
+}
+
+.label i {
+  position: absolute;
+  top: 9px;
+}
+/*# sourceMappingURL=styles.css.map */
