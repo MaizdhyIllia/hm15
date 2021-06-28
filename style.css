@@ -74,7 +74,3 @@
 .clock:hover .minutes {
     animation-play-state: paused;
 }
-
-.clok:hover {
-    border: black;
-}
